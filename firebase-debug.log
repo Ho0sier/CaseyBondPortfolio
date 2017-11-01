@@ -1,0 +1,36 @@
+[debug] [2017-11-01T01:20:35.722Z] ----------------------------------------------------------------------
+[debug] [2017-11-01T01:20:35.726Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Casey\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-01T01:20:35.726Z] CLI Version:   3.14.0
+[debug] [2017-11-01T01:20:35.726Z] Platform:      win32
+[debug] [2017-11-01T01:20:35.727Z] Node Version:  v8.9.0
+[debug] [2017-11-01T01:20:35.727Z] Time:          Tue Oct 31 2017 20:20:35 GMT-0500 (Central Daylight Time)
+[debug] [2017-11-01T01:20:35.727Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-01T01:20:35.742Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-01T01:20:35.743Z] > authorizing via signed-in user
+[debug] [2017-11-01T01:20:35.745Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-01T01:20:35.745Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/W9_8FwMr7Mv3ZlWrBcnWQDk0BoxCUz1tLmelsCi-jm0phNywMKSXcqvzmg8vvpDg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 31 2017 20:20:35 GMT-0500 (Central Daylight Time)
+[debug] [2017-11-01T01:20:35.984Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T01:20:36.016Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-savvycoder-project  
+ Tue Oct 31 2017 20:20:36 GMT-0500 (Central Daylight Time)
+[debug] [2017-11-01T01:20:36.369Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T01:20:36.369Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-savvycoder-project/tokens  
+ Tue Oct 31 2017 20:20:36 GMT-0500 (Central Daylight Time)
+[debug] [2017-11-01T01:20:36.715Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Casey\Desktop\SavvyCoders\CaseyBond'...
+[info] 
+[debug] [2017-11-01T01:20:36.732Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-savvycoder-project  
+ Tue Oct 31 2017 20:20:36 GMT-0500 (Central Daylight Time)
+[debug] [2017-11-01T01:20:37.055Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T01:20:37.055Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/669448010096/clients/_:getWebAppConfig  
+ Tue Oct 31 2017 20:20:37 GMT-0500 (Central Daylight Time)
+[debug] [2017-11-01T01:20:37.471Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
