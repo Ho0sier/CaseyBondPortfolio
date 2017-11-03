@@ -1,0 +1,24 @@
+body {
+  background-color: #818181;
+}
+.header {
+  color:#CCC;
+  font-size: 80px;
+
+  border: 1px solid black;
+  padding: 1px 2px 3px 4px;
+
+}
+
+img {
+width: 100px;
+height: 100px;
+
+}
+
+
+
+li.navlink {
+  display: inline;
+margin: 0 20px;
+}
