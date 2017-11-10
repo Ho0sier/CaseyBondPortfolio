@@ -44,6 +44,10 @@ ol.c {
     list-style-type: upper-roman;
 }
 
+ol#BulletListItemC {
+    color: red;
+}
+
 ol.d {
     list-style-type: lower-alpha;
 }
@@ -55,7 +59,11 @@ ol.d {
 
 li.navlink {
   display: inline;
-margin: 0 20px;
+  margin: 0 20px;
+}
+
+li#linkC a {
+  color: yellow;
 }
 
 .social buttons {
