@@ -2,7 +2,7 @@ body {
   background-color: #818181;
 }
 .header {
-  color:#CCC;
+  color:#grey;
   font-size: 80px;
 
   border: 1px black;
@@ -10,6 +10,14 @@ body {
 
 }
 
+.h3 {
+  color:#CCC;
+  font-size: 50px;
+
+  border: 1px blue;
+  padding: 1px 2px 3px 4px;
+
+}
 
 .card {
   background-color: lightyellow;
@@ -42,11 +50,11 @@ ul.b {
 
 ol.c {
     list-style-type: upper-roman;
+    color: #00ff00;
+
 }
 
-ol#BulletListItemC {
-    color: red;
-}
+    col
 
 ol.d {
     list-style-type: lower-alpha;
