@@ -21,11 +21,14 @@ h3 {
 
 .card {
   background-color: lightyellow;
-
 }
 
-nav, footer {
+/* I don't know what is going on with this nav, footer code */
+
+.nav {
   background-color: steelblue;
+  text-align:center;
+
 }
 
 .nav {
