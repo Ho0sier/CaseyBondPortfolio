@@ -28,35 +28,24 @@ nav, footer {
   background-color: steelblue;
 }
 
+.nav {
+  text-align:center;
+
+}
 
 img {
 width: 100px;
 height: 100px;
-
-
-
 }
 
-ul.a {
-    list-style-type: circle;
+ul {
+  width:9em;
+  font-family:tahoma, sans-serif;
 }
 
-ul.b {
-    list-style-type: square;
-}
-
-ol.c {
-    list-style-type: upper-roman;
-    color: #00ff00;
+ul li {
 
 }
-
-    col
-
-ol.d {
-    list-style-type: lower-alpha;
-}
-
 
 
 
