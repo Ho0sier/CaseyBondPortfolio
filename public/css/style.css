@@ -47,6 +47,7 @@ ul {
 }
 
 ul li {
+  color: red;
 
 }
 
@@ -76,3 +77,7 @@ li#linkC a {
   border: 2px dotted blue;
 
 }
+
+#header {
+    margin: 10;
+    padding: 5;
