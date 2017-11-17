@@ -21,7 +21,11 @@ h1 {
 }
 
 .card {
-  background-color: lightyellow;
+  color:#ffea00;
+  background-color:#01fdf4;
+  width: 100%;
+  height: 50px;
+  align: center;
 }
 
 /* I don't know what is going on with this nav, footer code */
@@ -30,6 +34,7 @@ h1 {
   background-color:#01fdf4;
   width: 100%;
   height: 50px;
+  align: center;
 }
 
 
@@ -40,16 +45,18 @@ width: 100px;
 height: 100px;
 }
 
-ul {
+
+
+
+ul.b {
   width:9em;
   font-family:tahoma, sans-serif;
+  list-style-type: square;
   display: inline;
-}
-
-ul li {
   color: red;
-
 }
+
+
 
 
 
@@ -66,6 +73,14 @@ li#linkC a {
 }
 
 .social buttons {
+
+}
+
+#item1 {
+    color:#3442c6;
+
+}
+
 
 }
 
