@@ -17,7 +17,9 @@ h1 {
   background-color:#508d8b;
 }
 
-
+/*h3 {
+    text-align: right;
+}*/
 
 
 }
@@ -74,6 +76,8 @@ li#linkC a {
   color: yellow;
 }
 
+
+
 .social buttons {
 
 }
@@ -83,6 +87,30 @@ li#linkC a {
 
 }
 
+p.normal {
+    font-weight: normal;
+}
+
+p.light {
+    font-weight: lighter;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+
+
+
+#item2 {
+  color:#ff0000;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 }
 
@@ -98,3 +126,14 @@ li#linkC a {
 #header {
     margin: 10;
     padding: 5;
+  }
+
+.highlighted {
+    color: green;
+    background-color: yellow;
+    padding: 15px;
+}
+
+#Hidden-blurb {
+    display: none;
+}
